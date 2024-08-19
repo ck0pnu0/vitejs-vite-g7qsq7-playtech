@@ -1,0 +1,370 @@
+{
+  "categories": {
+    "software": [
+      {
+        "id": "sft001",
+        "title": "Adobe Photoshop",
+        "description": "A powerful image editing software used by professionals worldwide.",
+        "image": "https://img-c.udemycdn.com/course/750x422/5346430_f677.jpg",
+        "price": 20.99,
+        "platform": "Windows, Mac",
+        "license_type": "Subscription"
+      },
+      {
+        "id": "sft002",
+        "title": "Microsoft Office",
+        "description": "A suite of office applications including Word, Excel, and PowerPoint.",
+        "image": "https://cdn.mos.cms.futurecdn.net/JCBQyBmDc62E8xWfF88ZGP.jpg",
+        "price": 69.99,
+        "platform": "Windows, Mac",
+        "license_type": "One-time purchase"
+      },
+      {
+        "id": "sft003",
+        "title": "Visual Studio Code",
+        "description": "A lightweight, powerful code editor with built-in support for development operations.",
+        "image": "https://miro.medium.com/v2/resize:fit:1170/1*BnpPe7u0t-e8hHc-qEmgSQ.png",
+        "price": 0,
+        "platform": "Windows, Mac, Linux",
+        "license_type": "Freeware"
+      },
+      {
+        "id": "sft004",
+        "title": "Adobe Illustrator",
+        "description": "Industry-standard vector graphics software for creating logos, icons, and illustrations.",
+        "image": "https://www.sysllc.com/wp-content/uploads/2021/09/adobe-illustrator.jpg",
+        "price": 20.99,
+        "platform": "Windows, Mac",
+        "license_type": "Subscription"
+      },
+      {
+        "id": "sft005",
+        "title": "Slack",
+        "description": "A collaboration hub that connects people to the information they need.",
+        "image": "https://i.pcmag.com/imagery/reviews/07td46ju7p6lLVb0QGwc5VF-6.fit_scale.size_760x427.v1569479844.jpg",
+        "price": 6.67,
+        "platform": "Windows, Mac, Web",
+        "license_type": "Subscription"
+      },
+      {
+        "id": "sft006",
+        "title": "Zoom",
+        "description": "A video conferencing software for meetings, webinars, and group messaging.",
+        "image": "https://cdn.mos.cms.futurecdn.net/25UeWUrVGmuXUjnG6Yt7rj.jpg",
+        "price": 14.99,
+        "platform": "Windows, Mac, Web",
+        "license_type": "Subscription"
+      },
+      {
+        "id": "sft007",
+        "title": "Autodesk AutoCAD",
+        "description": "A CAD software for drafting, designing, and modeling 2D and 3D projects.",
+        "image": "https://www.flashforge-eu.com/image/cache/catalog/product/autodesk/autocad/autodesk_autocad-1280x720.jpg",
+        "price": 1690,
+        "platform": "Windows, Mac",
+        "license_type": "Subscription"
+      },
+      {
+        "id": "sft008",
+        "title": "JetBrains IntelliJ IDEA",
+        "description": "A powerful IDE for Java development, providing smart coding assistance and productivity features.",
+        "image": "https://resources.jetbrains.com/storage/products/intellij-idea/img/meta/webpagepreview_1280x800_IntelliJ_IDEA_2024_1.png",
+        "price": 149,
+        "platform": "Windows, Mac, Linux",
+        "license_type": "Subscription"
+      },
+      {
+        "id": "sft009",
+        "title": "Final Cut Pro",
+        "description": "Professional video editing software for creating stunning movies and videos.",
+        "image": "https://external-preview.redd.it/final-cut-pro-for-ipad-has-been-announced-v0-UhTlOuqEjXiiUiTe380CBHnxIKhurMmlRQjwX0ofScg.jpg?width=640&crop=smart&auto=webp&s=12e965da164ea6b3b3552694da296d94272c1a23",
+        "price": 299.99,
+        "platform": "Mac",
+        "license_type": "One-time purchase"
+      },
+      {
+        "id": "sft010",
+        "title": "Blender",
+        "description": "A free and open-source 3D creation suite for modeling, animation, and rendering.",
+        "image": "https://docs.blender.org/manual/en/latest/_images/getting-started_about_introduction_screenshot.jpg",
+        "price": 0,
+        "platform": "Windows, Mac, Linux",
+        "license_type": "Freeware"
+      },
+      {
+        "id": "sft011",
+        "title": "Figma",
+        "description": "A collaborative interface design tool that enables teams to create and iterate on designs together.",
+        "image": "https://cdn.sanity.io/images/599r6htc/regionalized/266ec07c0cfe14229530256bb9700e0bce7ff8d4-2400x1260.png?w=1200&q=70&fit=max&auto=format",
+        "price": 12,
+        "platform": "Web",
+        "license_type": "Subscription"
+      },
+      {
+        "id": "sft012",
+        "title": "Spotify",
+        "description": "A digital music service that gives you access to millions of songs and podcasts.",
+        "image": "https://i.pcmag.com/imagery/reviews/042FW7hC9vrGnoDea9LArXI-35.fit_scale.size_760x427.v1674253030.png",
+        "price": 9.99,
+        "platform": "Windows, Mac, Web, Mobile",
+        "license_type": "Subscription"
+      }
+    ],
+    "mobile-devices": [
+      {
+        "id": "mbd001",
+        "title": "iPhone 14 Pro",
+        "description": "Apple's latest flagship smartphone with advanced camera features and performance.",
+        "image": "https://technome.bg/image/cache/catalog/pc-import/0006301637053/0006302249630/00063039426541-446x446.jpg",
+        "price": 999.99,
+        "battery": "3095mAh",
+        "camera": "48MP + 12MP + 12MP",
+        "memory": "6GB RAM, 128GB Storage",
+        "screen_size": "6.1 inches"
+      },
+      {
+        "id": "mbd002",
+        "title": "Samsung Galaxy S23",
+        "description": "Samsung's top-tier smartphone with a dynamic AMOLED display and powerful performance.",
+        "image": "https://images.samsung.com/is/image/samsung/p6pim/bg/feature/164885572/bg-feature--nbsp--538869430?$FB_TYPE_I_JPG$",
+        "price": 899.99,
+        "battery": "3900mAh",
+        "camera": "50MP + 10MP + 12MP",
+        "memory": "8GB RAM, 128GB Storage",
+        "screen_size": "6.1 inches"
+      },
+      {
+        "id": "mbd003",
+        "title": "Google Pixel 7",
+        "description": "Google's smartphone with exceptional camera capabilities and clean Android experience.",
+        "image": "https://eustore.bg/images/detailed/66/71jmjOxxE3L._AC_SL1500_.jpg",
+        "price": 799.99,
+        "battery": "4355mAh",
+        "camera": "50MP + 12MP",
+        "memory": "8GB RAM, 128GB Storage",
+        "screen_size": "6.3 inches"
+      },
+      {
+        "id": "mbd004",
+        "title": "OnePlus 11",
+        "description": "High-performance smartphone with a stunning display and fast charging.",
+        "image": "https://m.media-amazon.com/images/I/81fRAoUL-fL._AC_UF894,1000_QL80_.jpg",
+        "price": 699.99,
+        "battery": "5000mAh",
+        "camera": "50MP + 48MP + 32MP",
+        "memory": "8GB RAM, 128GB Storage",
+        "screen_size": "6.7 inches"
+      },
+      {
+        "id": "mbd005",
+        "title": "Sony Xperia 1 V",
+        "description": "A smartphone with a 4K HDR OLED display and triple-lens camera system.",
+        "image": "https://brosbg.com/uploads/sony-xperia-1-v-gsm-big-3908-1-7559875786.jpg",
+        "price": 1199.99,
+        "battery": "4500mAh",
+        "camera": "12MP + 12MP + 12MP",
+        "memory": "12GB RAM, 256GB Storage",
+        "screen_size": "6.5 inches"
+      },
+      {
+        "id": "mbd006",
+        "title": "Huawei P60 Pro",
+        "description": "A smartphone with advanced AI photography and a high-quality display.",
+        "image": "https://mobilebulgaria.com/img/cms/796/805796.webp",
+        "price": 899.99,
+        "battery": "4815mAh",
+        "camera": "50MP + 48MP + 13MP",
+        "memory": "8GB RAM, 256GB Storage",
+        "screen_size": "6.6 inches"
+      },
+      {
+        "id": "mbd007",
+        "title": "Xiaomi Mi 12",
+        "description": "Flagship smartphone with a powerful processor and immersive display.",
+        "image": "https://mlgroup.bg/wp-content/uploads/2023/07/redmi-12-black.jpg",
+        "price": 749.99,
+        "battery": "4600mAh",
+        "camera": "50MP + 13MP + 5MP",
+        "memory": "8GB RAM, 128GB Storage",
+        "screen_size": "6.28 inches"
+      },
+      {
+        "id": "mbd008",
+        "title": "Motorola Edge 40 Pro",
+        "description": "A smartphone with a curved display and high refresh rate for smooth visuals.",
+        "image": "https://smartphosis.com/wp-content/uploads/2024/07/Silikonov-Keis-za-Motorola-Edge-40-Pro-Carbon-Silicone-Smartphosis-Cheren-1.jpg",
+        "price": 849.99,
+        "battery": "4600mAh",
+        "camera": "50MP + 50MP + 12MP",
+        "memory": "12GB RAM, 256GB Storage",
+        "screen_size": "6.67 inches"
+      },
+      {
+        "id": "mbd009",
+        "title": "Asus ROG Phone 6",
+        "description": "Gaming smartphone with top-notch performance and a 165Hz display.",
+        "image": "https://s13emagst.akamaized.net/products/51176/51175938/images/res_c3927caf1045d08c82a48741e91d96a0.jpg",
+        "price": 999.99,
+        "battery": "6000mAh",
+        "camera": "50MP + 13MP + 5MP",
+        "memory": "12GB RAM, 256GB Storage",
+        "screen_size": "6.78 inches"
+      },
+      {
+        "id": "mbd010",
+        "title": "Oppo Find X6 Pro",
+        "description": "Premium smartphone with a sleek design and impressive camera technology.",
+        "image": "https://hardwarebg.com/wp-content/uploads/2023/03/oppo_find_X6_pro_1.jpg",
+        "price": 1099.99,
+        "battery": "5000mAh",
+        "camera": "50MP + 50MP + 50MP",
+        "memory": "12GB RAM, 256GB Storage",
+        "screen_size": "6.82 inches"
+      },
+      {
+        "id": "mbd011",
+        "title": "Vivo X80 Pro",
+        "description": "High-end smartphone with advanced imaging capabilities and fast charging.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY3zHqeSL-lOzMsV4VBHZMxpzODUYAxNFsWg&s",
+        "price": 899.99,
+        "battery": "4700mAh",
+        "camera": "50MP + 48MP + 12MP + 8MP",
+        "memory": "12GB RAM, 256GB Storage",
+        "screen_size": "6.78 inches"
+      },
+      {
+        "id": "mbd012",
+        "title": "Realme GT 2 Pro",
+        "description": "A flagship killer with a stunning design and powerful hardware.",
+        "image": "https://rukminim2.flixcart.com/image/850/1000/l3rmzrk0/mobile/c/c/o/-original-imagetmegwtng3xg.jpeg?q=90&crop=false",
+        "price": 599.99,
+        "battery": "5000mAh",
+        "camera": "50MP + 50MP + 3MP",
+        "memory": "12GB RAM, 256GB Storage",
+        "screen_size": "6.7 inches"
+      }
+    ],
+    "fashion": [
+      {
+        "id": "fsh001",
+        "title": "Levi's 501 Original Jeans",
+        "description": "Classic straight-leg jeans with a timeless fit.",
+        "image": "https://lsco.scene7.com/is/image/lsco/005010101-alt1-pdp-ld?fmt=jpeg&qlt=70&resMode=sharp2&fit=crop,1&op_usm=0.6,0.6,8&wid=2000&hei=1840",
+        "price": 59.99,
+        "size": ["28", "30", "32", "34", "36"],
+        "material": "100% Cotton",
+        "color": ["Blue", "Black", "Gray"]
+      },
+      {
+        "id": "fsh002",
+        "title": "Nike Air Max 270",
+        "description": "Stylish and comfortable sneakers with a large air unit for cushioning.",
+        "image": "https://www.sportvision.bg/files/thumbs/files/images/slike_proizvoda/media/AH6/AH6789-001/images/thumbs_800/AH6789-001_800_800px.jpg",
+        "price": 129.99,
+        "size": ["7", "8", "9", "10", "11"],
+        "material": "Mesh, Synthetic",
+        "color": ["White", "Black", "Red"]
+      },
+      {
+        "id": "fsh003",
+        "title": "Ray-Ban Aviator Sunglasses",
+        "description": "Iconic aviator sunglasses with a lightweight metal frame.",
+        "image": "https://leonardo.bg/uploads/2023/01/6c4e82108d2b3f11289ac6f143e8fc8d.png",
+        "price": 154.99,
+        "lens_color": ["Green", "Brown", "Blue"],
+        "frame_material": "Metal",
+        "uv_protection": "100% UV"
+      },
+      {
+        "id": "fsh004",
+        "title": "Gucci Marmont Mini Bag",
+        "description": "A luxurious mini bag with chevron leather and a double G emblem.",
+        "image": "https://media.gucci.com/style/DarkGray_Center_0_0_980x980/1587569403/476433_DTDCT_1000_001_057_0000_Light-GG-Marmont-matelass-leather-super-mini-bag.jpg",
+        "price": 1299.99,
+        "size": "20cm x 13cm x 7cm",
+        "material": "Leather",
+        "color": ["Black", "Red", "White"]
+      },
+      {
+        "id": "fsh005",
+        "title": "Adidas Ultraboost 22",
+        "description": "High-performance running shoes with responsive cushioning.",
+        "image": "https://www.shooos.bg/media/catalog/product/cache/20/image/1350x778/9df78eab33525d08d6e5fb8d27136e95/a/d/adidas-ultraboost-22-w-gx55911.jpg",
+        "price": 180,
+        "size": ["7", "8", "9", "10", "11"],
+        "material": "Primeknit, Rubber",
+        "color": ["Black", "White", "Gray"]
+      },
+      {
+        "id": "fsh006",
+        "title": "Moncler Puffer Jacket",
+        "description": "A warm and stylish puffer jacket with a quilted design.",
+        "image": "https://media.bergdorfgoodman.com/f_auto,q_auto:low,ar_5:7,c_fill,dpr_2.0,w_720/01/bg_4617884_100106_m",
+        "price": 1199.99,
+        "size": ["S", "M", "L", "XL"],
+        "material": "Nylon, Down",
+        "color": ["Black", "Navy", "Red"]
+      },
+      {
+        "id": "fsh007",
+        "title": "Burberry Classic Trench Coat",
+        "description": "A timeless trench coat with a double-breasted front and belted waist.",
+        "image": "https://assets.vogue.com/photos/64e3d03b93ebb91b83375e65/3:4/w_748%2Cc_limit/slide_2.jpg",
+        "price": 1999.99,
+        "size": ["S", "M", "L", "XL"],
+        "material": "Cotton Gabardine",
+        "color": ["Beige", "Black", "Navy"]
+      },
+      {
+        "id": "fsh008",
+        "title": "Chanel Quilted Wallet on Chain",
+        "description": "A chic wallet on chain with quilted leather and iconic CC logo.",
+        "image": "https://www.chanel.com/images//t_zoomfshacc/f_auto//classic-wallet-on-chain-black-lambskin-silver-tone-metal-lambskin-silver-tone-metal-packshot-artistique-vue2-ap0250y01480c3906-9543169605662.jpg",
+        "price": 2499.99,
+        "size": "19cm x 12cm x 4cm",
+        "material": "Leather",
+        "color": ["Black", "Red", "Beige"]
+      },
+      {
+        "id": "fsh009",
+        "title": "Prada Re-Nylon Backpack",
+        "description": "A sustainable backpack made from recycled nylon with leather trim.",
+        "image": "https://img.mytheresa.com/1094/1238/100/jpeg/catalog/product/c1/P00589227.jpg",
+        "price": 950,
+        "size": "30cm x 40cm x 20cm",
+        "material": "Recycled Nylon, Leather",
+        "color": ["Black", "Navy"]
+      },
+      {
+        "id": "fsh010",
+        "title": "Hermès Oran Sandals",
+        "description": "Elegant leather sandals with the signature H cut-out design.",
+        "image": "https://assets.hermes.com/is/image/hermesproduct/oran-sandal--221208Z%2027-worn-2-0-0-800-800_g.jpg",
+        "price": 680,
+        "size": ["5", "6", "7", "8", "9"],
+        "material": "Leather",
+        "color": ["Tan", "Black", "White"]
+      },
+      {
+        "id": "fsh011",
+        "title": "Versace Medusa Head Belt",
+        "description": "A statement belt with the iconic Medusa head buckle.",
+        "image": "https://www.onudesignerwear.com/images/versace-round-medusa-head-belt-black-p579-1206_image.jpg",
+        "price": 450,
+        "size": ["S", "M", "L"],
+        "material": "Leather",
+        "color": ["Black", "Brown"]
+      },
+      {
+        "id": "fsh012",
+        "title": "Balenciaga Triple S Sneakers",
+        "description": "Chunky sneakers with a layered sole and bold design.",
+        "image": "https://media.gq-magazine.co.uk/photos/5d13a7f0003d75198fae74c5/16:9/w_2560%2Cc_limit/balenciaga-01-gq-01dec18_b.jpg",
+        "price": 975,
+        "size": ["7", "8", "9", "10", "11"],
+        "material": "Mesh, Leather",
+        "color": ["Black", "White", "Gray"]
+      }
+    ]
+  }
+}
