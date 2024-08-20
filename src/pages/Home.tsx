@@ -1,5 +1,7 @@
 import CategoryDescription from '../layouts/CategoryDescription';
 
+import './Home.css';
+
 export default function Home() {
   const title =
     'Discover Your Next Essential: Software, Devices, and Fashion at Your Fingertips';
@@ -7,6 +9,7 @@ export default function Home() {
 
   return (
     <>
+      <div className='hero-img'></div>
       <CategoryDescription title={title} description={description} />
     </>
   );

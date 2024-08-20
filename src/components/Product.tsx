@@ -11,19 +11,23 @@ interface ProductType {
 
 type ProductProps = {
   product: ProductType;
+  onOpenModal: (product: ProductType) => void
 };
 
-const Product = ({ product, children }: ProductProps & PropsWithChildren) => {
+const Product = ({ product, onOpenModal, children }: ProductProps & PropsWithChildren) => {
   const { title, description, image, price } = product;
+
   return (
-    <div className="product">
-      <img className="image" src={image} alt={title} />
-      <h3 className="heading">{title}</h3>
-      <p>{description}</p>
-      <div className="price">
-        price: <strong>{price}</strong>
+    <div className="product" onClick={() => onOpenModal(product)}>
+      <div className="image">
+        <img src={image} alt={title} />
       </div>
-      {children}
+      <div className="product-cnt">
+        <h3 className="heading">{title}</h3>
+        <p>{description}</p>
+        <p>price: <strong>{price}</strong></p>
+        {children}
+      </div>  
     </div>
   );
 };

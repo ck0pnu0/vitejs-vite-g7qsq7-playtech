@@ -271,9 +271,9 @@
         "description": "Iconic aviator sunglasses with a lightweight metal frame.",
         "image": "https://leonardo.bg/uploads/2023/01/6c4e82108d2b3f11289ac6f143e8fc8d.png",
         "price": 154.99,
-        "lens_color": ["Green", "Brown", "Blue"],
-        "frame_material": "Metal",
-        "uv_protection": "100% UV"
+        "size": ["unisex"],
+        "material": "Metal",
+        "color": ["Green", "Brown", "Blue"]
       },
       {
         "id": "fsh004",
@@ -281,7 +281,7 @@
         "description": "A luxurious mini bag with chevron leather and a double G emblem.",
         "image": "https://media.gucci.com/style/DarkGray_Center_0_0_980x980/1587569403/476433_DTDCT_1000_001_057_0000_Light-GG-Marmont-matelass-leather-super-mini-bag.jpg",
         "price": 1299.99,
-        "size": "20cm x 13cm x 7cm",
+        "size": ["20cm x 13cm x 7cm"],
         "material": "Leather",
         "color": ["Black", "Red", "White"]
       },
@@ -321,7 +321,7 @@
         "description": "A chic wallet on chain with quilted leather and iconic CC logo.",
         "image": "https://www.chanel.com/images//t_zoomfshacc/f_auto//classic-wallet-on-chain-black-lambskin-silver-tone-metal-lambskin-silver-tone-metal-packshot-artistique-vue2-ap0250y01480c3906-9543169605662.jpg",
         "price": 2499.99,
-        "size": "19cm x 12cm x 4cm",
+        "size": ["19cm x 12cm x 4cm"],
         "material": "Leather",
         "color": ["Black", "Red", "Beige"]
       },
@@ -331,7 +331,7 @@
         "description": "A sustainable backpack made from recycled nylon with leather trim.",
         "image": "https://img.mytheresa.com/1094/1238/100/jpeg/catalog/product/c1/P00589227.jpg",
         "price": 950,
-        "size": "30cm x 40cm x 20cm",
+        "size": ["30cm x 40cm x 20cm"],
         "material": "Recycled Nylon, Leather",
         "color": ["Black", "Navy"]
       },

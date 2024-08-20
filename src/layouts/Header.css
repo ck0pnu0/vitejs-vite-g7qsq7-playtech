@@ -4,3 +4,9 @@
   align-items: center;
   padding: 12px 24px;
 }
+
+@media screen and (max-width: 500px) {
+  .header {
+    padding: 0;
+  }
+}

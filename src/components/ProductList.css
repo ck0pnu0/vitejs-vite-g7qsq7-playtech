@@ -1,4 +1,7 @@
 .product-list {
+  --flex-gap: 10px;
   display: flex;
   flex-wrap: wrap;
+  gap: var(--flex-gap);
+  padding-bottom: 20px;
 }

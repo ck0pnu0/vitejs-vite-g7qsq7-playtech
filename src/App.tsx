@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 
@@ -11,7 +12,6 @@ import Software from './pages/Software';
 
 import { ProductType } from './components/Product';
 
-import { useEffect, useState } from 'react';
 
 enum CategoryTypes {
   SOFTWARE = 'software',
@@ -69,7 +69,6 @@ function App() {
         return response.json();
       })
       .then(function (myJson) {
-        console.log(myJson);
         setData(myJson['categories']);
       });
   };
@@ -88,7 +87,6 @@ function App() {
             path="/software"
             element={<Software products={softwareProducts} />}
           />
-          {/* onLoadMore={onLoadMoreSoftwareHandler} */}
           <Route
             path="/mobile-devices"
             element={<MobileDevices products={mobileDevicesProducts} />}

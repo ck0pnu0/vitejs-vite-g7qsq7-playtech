@@ -1,13 +1,19 @@
-import { useState, forwardRef, useImperativeHandle } from 'react';
+import { useState, forwardRef, useImperativeHandle, Ref, ReactElement } from 'react';
+import ModalProduct from './ModalProduct';
+
 import './Modal.css';
+import { ProductType } from './Product';
 
 export type ModalHandle = {
   openModal: () => void;
 };
 
-// type ModalProps = {};
+type ModalProps<T extends ProductType> = { product: T };
 
-const Modal = forwardRef<ModalHandle>(({ props, ref }) => {
+const Modal = <T extends ProductType>(
+  props: ModalProps<T>, 
+  ref: Ref<ModalHandle>
+) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const openModal = () => {
@@ -23,19 +29,23 @@ const Modal = forwardRef<ModalHandle>(({ props, ref }) => {
   }));
 
   return (
-    <div className="image-modal">
-      {isModalOpen && (
-        <div className="modal-overlay">
-          <div className="modal-content">
-            <span className="close-button" onClick={closeModal}>
-              &times;
-            </span>
-            <ModalProduct />
+    <>
+    {isModalOpen && (
+      <div className="image-modal">
+          <div className="modal-overlay">
+            <div className="modal-content">
+              <span className="close-button" onClick={closeModal}>
+                &times;
+              </span>
+              <ModalProduct product={props.product} />
+            </div>
           </div>
         </div>
       )}
-    </div>
+    </> 
   );
-});
+};
 
-export default Modal;
+export default forwardRef(Modal) as <T extends ProductType>(
+  props: ModalProps<T> & { ref?: Ref<ModalHandle> }
+) => ReactElement;

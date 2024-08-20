@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100%;
 }
 
 .modal-overlay {
@@ -15,19 +15,36 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: black;
+  z-index: 99;
 }
 
 .modal-content {
   position: relative;
   background-color: white;
-  padding: 20px;
+  padding: 0;
   border-radius: 8px;
 }
 
 .close-button {
   position: absolute;
-  top: 10px;
+  top: 5px;
   right: 10px;
   font-size: 24px;
+  line-height: 1;
   cursor: pointer;
+  z-index: 9;
+}
+
+.modal-content .product {
+  --flex-items: 1;
+  cursor: inherit;
+}
+
+.modal-content .product .image {
+  height: 250px;
+}
+
+.modal-content .product:hover .image img {
+  scale: none;
 }

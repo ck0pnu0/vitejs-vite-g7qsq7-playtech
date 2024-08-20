@@ -17,6 +17,7 @@ export default function Software({ products }: SoftwareProps) {
   const [currentPage, setCurrentPage] = useState(1);
   const [currentItems, setCurrentItems] = useState<SoftwareProductType[]>([]);
   const [loadMoreDisable, setLoadMoreDisable] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   const description = `Software products are digital solutions designed to perform specific
   tasks or solve particular problems. They range from simple applications,
@@ -36,6 +37,7 @@ export default function Software({ products }: SoftwareProps) {
       setLoadMoreDisable,
       itemsPerPage
     );
+    setLoading(false);
   }, [currentPage, products]);
 
   function onLoadMoreHandler() {
@@ -44,9 +46,15 @@ export default function Software({ products }: SoftwareProps) {
 
   return (
     <>
-      <CategoryDescription title="Software" description={description} />
-      <ProductList products={currentItems} />
-      <LoadButton disabled={loadMoreDisable} onClick={onLoadMoreHandler} />
+      {!loading && (
+        <>
+          <CategoryDescription title="Software" description={description} />
+          <ProductList products={currentItems} />
+          <LoadButton disabled={loadMoreDisable} onClick={onLoadMoreHandler} />
+        </>
+        )
+      }
+    {loading && <p>Loading...</p>}
     </>
   );
 }

@@ -1,0 +1,14 @@
+.hero-img {
+    width: 100%;
+    height: 400px;
+    background: url(https://wallpapers.com/downloads/high/product-background-3000-x-2000-2nk1op2yxbd7515r.webp) no-repeat center center fixed;
+    background-size: cover;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-img {
+        height: 200px;
+    }
+}
